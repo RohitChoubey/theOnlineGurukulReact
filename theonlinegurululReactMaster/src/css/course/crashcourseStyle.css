@@ -1,0 +1,266 @@
+.cc-bg-container{
+    background-color: #ffe2d4;
+    padding-top: 10px;
+  }
+  .cc-page-heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    -webkit-text-stroke: medium;
+    text-shadow: 2px 2px #ffffff;
+    color: black;
+  }
+  .book-icon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #ff6502;
+    font-size: 30px;
+  }
+  .book-icon span {
+      font-size: 29px;
+      width: 13px;
+      transform: skewY(184deg);
+  }
+  .cc-box {
+    box-shadow: 0px 0px 2px 1px;
+    padding: 12px;
+    background: white;
+    border-radius: 7px;
+  }
+  .cc-box-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid orange;
+  }
+  .cc-covered-sub-hour{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cc-fees {
+      display: flex;
+      background: linear-gradient(#ff6200,rgba(255,128,0,.9));
+      padding: 3px 12px;
+      text-transform: capitalize;
+      align-items: center;
+      justify-content: space-between;
+      color: white;
+      font-weight: bold;
+  }
+  .pp-prices p {
+    margin: 0;
+      display: flex;
+      line-height: 1.2;
+      justify-content: center;
+  }
+  .price_off {
+    font-size: 11px;
+    font-weight: unset;
+    text-decoration-line: line-through;
+  }
+  .whatsapp-register {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-end;
+  }
+  i.fa.fa-whatsapp {
+      font-size: 28px;
+      vertical-align: middle;
+      color: #5cb85c;
+  }
+  .register_plan-btn {
+    margin-top: 12px;
+    text-align: right;
+  }
+ 
+  .service-board {
+      background-color: white;
+      padding: 22px;
+      border-radius: 10px;
+  }
+  .service-board h2{
+      margin-top: 0;
+  }
+  .service-board ul li {
+    list-style: inside;
+    list-style-type: disclosure-closed;
+    font-family: sans-serif;
+    line-height: 2;
+    font-size: 15px;
+  }
+  a.carousel-control {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: flex-end;
+  }
+  .panel-group12 {
+      background: #fff none repeat scroll 0 0;
+      border-radius: 3px;
+      box-shadow: 0 5px 30px 0 rgb(0 0 0 / 4%);
+      padding-top: 30px;
+  }
+  .crash_course-container #accordion .panel-title a {
+    background: linear-gradient(#ff6200,rgba(255,128,0,.9));
+  }
+  .crash_course-container #accordion .panel-title a.collapsed {
+      content: "\254B";
+      background: linear-gradient(#ff6200,rgba(255,128,0,.9));
+  }
+  .crash_course-container #accordion .panel-title a.collapsed::after, .crash_course-container #accordion .panel-title a::after {
+      content: "\2501";
+      background: linear-gradient(#ff6200,rgba(255,128,0,.9));
+  }
+  .crash_course-container #accordion .panel-title a.collapsed::after {
+      content: "\254B";
+      background: linear-gradient(#ff6200,rgba(255,128,0,.9));
+  }
+  .panel-group12 >.panel-info>.panel-heading {
+      background-color: #fee2d4;
+  }
+  .active-Class{
+    color: #fff;
+    background: linear-gradient(#ff6200,rgba(255,128,0,.9));
+    border-color: #269abc;
+    font-size: 20px;
+  }
+  .cc-subj-topic ul li {
+    list-style: inside;
+    list-style-type: decimal;
+  }
+  .class12-box-syllabus {
+    display: none;
+  }
+  @media (max-width: 750px) {
+    .class12-fees-stracture {
+      margin-top: 14px;
+    }
+    .cc-page-heading h1 {
+      letter-spacing: 2px;
+    }
+  }
+  /* teacher img */
+  .student-img-headline h2 {
+    font-size: 33px;
+    font-weight: 600;
+    margin: 20px 20px;
+  }
+  
+  @media (max-width: 500px) {
+    .student-img-headline h2 {
+      font-size: 20px;
+    }
+  }
+  
+  .st-img-sl {
+    box-shadow: 0 1px 8px 0 rgb(158 158 158 / 75%);
+    background-color: #f5f5f5;
+    margin-left: 20px;
+    width: 266px;
+    padding: 13px;
+    border-radius: 4px;
+    border: 4px solid #ff6600;
+  }
+  
+  .st-photo-circle img {
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+  }
+  
+  .student-info p:nth-child(1){
+    font-weight: bold;
+    font-size: 19px;
+  }
+  
+  .student-slide-images {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0 auto;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .student-slide-images > div {
+    width: 180%;
+    height: 100%;
+    transform: translate3d(0, 0, 0);
+    display: flex;
+  }
+  
+  .student-slide-images .st-mover-1 {
+    animation: moveSlideshow 9s linear infinite;
+  }
+  .cc-covered-subj .btn {
+    font-size: small;
+    margin-left: 4px;
+  }
+  @keyframes moveSlideshow {
+    100% {
+      transform: translateX(-42.6666%);
+    }
+  }
+  .st-mover-1:hover {animation-play-state: paused;}
+    .student-info .btn{
+      padding: 3px 9px!important;
+      font-size: small;
+    }
+    @media (max-width: 768px) {
+      .student-slide-images > div {
+        width: 580%;
+      }
+      .student-slide-images .st-mover-1 {
+        animation: moveSlideshow 18s linear infinite;
+      }
+  
+      @keyframes moveSlideshow {
+        100% {
+          transform: translateX(-88.6666%);
+        }
+      }
+    }
+    .whatplan-container {
+        background-color: aliceblue;
+      }
+      .what-plan-details p{
+        margin: 0;
+        font-size: 16px;
+        text-transform: capitalize;
+      }
+      .what-plan-details {
+        box-shadow: 1px 0px 1px 1px;
+        border-radius: 8px;
+        padding: 10px;
+        background-color: white;
+      }
+      
+      .course_plan_date {
+        text-align: right;
+      }
+      @media (max-width:768px) {
+        .course_plan_topic {
+          text-align: center;
+        }
+        .course_plan_date {
+          text-align: center;
+        }
+      }
+      .btn-thickness {
+        padding: 2px 7px;
+      }
+
+      .panelcrashheading {
+        padding: 10px 15px;
+        border-bottom: 1px solid #0000;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+    }
+    .class12accordion,.class10thtablistnone{
+      display: none;
+    }
+    .class12accordionblock {
+      display: block;
+    }

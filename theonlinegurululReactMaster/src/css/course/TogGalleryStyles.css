@@ -1,0 +1,94 @@
+.photo_gallery .gallery li:hover .overlay {
+    background: #00000040;
+    /* transform: translateX(12); */
+    transition: background .3s;
+}
+.photo_gallery .gallery li .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: 0 0;
+    text-align: center;
+    transition: background .3s;
+}
+.photo_gallery .gallery li:hover .zoom {
+    opacity: 1;
+    transform: unset;
+}
+.photo_gallery .gallery li:hover .gallery img {
+    max-width: 100%;
+    -webkit-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+    height: auto;
+}
+.garlley-block {
+    display: inline-flex;
+}
+
+@media (min-width: 768px) {
+.photo_gallery .gallery.gallery-3col li {
+    width: 35.3%;
+    margin: -18px 0 0 20px;
+}
+}
+@media (min-width: 768px){
+.photo_gallery .gallery li {
+    width: 22.75%;
+    margin: 0 3% 30px 0;
+}
+}
+.photo_gallery .gallery li {
+    width: 48.5%;
+    margin: 0 3% 20px 0;
+    position: relative;
+    /* float: left; */
+    overflow: hidden;
+    transition: all .35s ease-in-out;
+    display: inline-block;
+}
+.single_post ul li {
+    padding: 0 0 25px;
+}
+
+.photo_gallery.custom {
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+.news-section .upcoming_events .related_post_sec.single_post .rel_right {
+    padding-left: 0;
+    float: none;
+}
+.photo_gallery .gallery li span.zoom {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0;
+    color: #fff;
+    background: #000000bf;
+    -webkit-transform: translate(0,30px);
+    transform: translate(0,30px);
+    transition: opacity .3s,-webkit-transform .3s;
+    transition: opacity .3s,transform .3s;
+    transition: opacity .3s,transform .3s,-webkit-transform .3s;
+    position: absolute;
+    bottom: 32%;
+    left: 50%;
+    z-index: 99;
+    text-align: center;
+    margin-left: -25px;
+}
+@media (min-width: 768px) {
+.photo_gallery .gallery.gallery-3col li span.zoom {
+    width: 50px;
+    height: 50px;
+    bottom: 35%;
+}
+}
+@media (min-width: 768px) {
+.photo_gallery .gallery.gallery-3col li span.zoom i {
+    padding-top: 18px;
+}
+}

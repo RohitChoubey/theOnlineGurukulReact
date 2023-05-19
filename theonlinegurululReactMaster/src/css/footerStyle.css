@@ -1,0 +1,109 @@
+.footer p {
+    font-size: 14px;
+}
+.footer a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: orangered;
+}
+.footer-container {
+    background-color: black;
+    border-top: 5px solid #ff6600;
+    padding: 20px 0;
+    color: white;
+  }
+  .footer-container a {
+      color: white;
+      text-decoration:unset;
+      font-size: 14px;
+      font-weight: 600;
+  }
+  .footer-container  p {
+    font-family: open sans,sans-serif!important;
+ }
+  .footer-contact-india ul li {
+      margin-bottom: 10px;
+    }
+  .footer-contact-india ul li a i, .footer-contact-indonesia ul li a i{
+    margin-right: 7px;
+  }
+  .footer-contact-india ul li a, .footer-contact-indonesia ul li a {
+    font-weight: bold;
+    /* line-height: 26px; */
+  }
+  .footer-copyright-container {
+    background-color: #1e282f;
+    color: white;
+    padding: 17px 0px 0px;
+  }
+  .copyright-para {
+    margin: 6px 0px;
+    font-size: 15px;;
+    /* line-height: 44px; */
+  }
+  .footer-copyright-container ul {
+    display: flex;
+    align-items: center;
+  }
+  .social-facebook-btn, .social-twitter-btn, .social-instagram-btn, .social-linkedin-btn, .social-skype-btn, .social-youtube-btn {
+    background-color: white;
+    padding: 1px 8px;
+    margin-right: 10px;
+    border-radius: 7px;
+    font-size: 20px;
+  }
+  .social-facebook-btn{
+    color: #1877f2;
+  }
+  .social-twitter-btn{
+    color: #1da1f2;
+  }
+  .social-instagram-btn{
+    color: #c32aa3;
+  }
+  .social-linkedin-btn{
+    color: #0a66c2;
+  }
+  .social-skype-btn{
+    color: #0078d7;
+  }
+  .social-youtube-btn {
+    color: #ff0000;
+  }
+  .bdh-dgs a::after{
+    content: "";
+  }
+  @media (max-width:991px) {
+    .copyright-para {
+      line-height: unset;
+    }
+    .cd-ft {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+    .bdh-dgs {
+      white-space: pre-line;
+      right: 4px;
+    }
+  }
+  .dropdown-item {
+    border-bottom: 1px solid rgb(169, 168, 168);
+  }
+  .dropdown-item:hover {
+    color: #ff6600;
+    font-weight: 600;
+  }
+  .dropdown-menu li {
+    padding: 5px 0;
+    font-size: small;
+  }
+
+  @media (max-width:992px) {
+    .navbar-nav .nav-link {
+      padding-left: 10px;
+      font-weight: 800;
+    }
+  }
+  .footer-contact-indonesia ul li {
+    margin-bottom: 10px;
+}

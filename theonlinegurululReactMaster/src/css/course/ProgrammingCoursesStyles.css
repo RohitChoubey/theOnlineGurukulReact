@@ -1,0 +1,223 @@
+       .ProgrammingCourses_container .banner-container .row {
+            margin-right: -0px;
+            margin-left: -0px;
+        }
+       .ProgrammingCourses_container .banner-text {
+            height: 427px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+       .ProgrammingCourses_container .banner-cod-img {
+            height: 533px;
+            display: flex;
+            align-content: flex-end;
+        }
+       .ProgrammingCourses_container .banner-text h2 {
+            margin-top: 14px;
+            text-transform: uppercase;
+            text-align: center;
+            color: #ff931e;
+            font-size: 40px;
+            font-weight: bold;
+        }
+       .ProgrammingCourses_container .banner-text p {
+            text-transform: capitalize;
+            text-align: center;
+            color: white;
+            font-size: 24px;
+        }
+        /* .green-box {
+            background: url('<?= base_url("assets/web/images/coding/code.jpg") ?>');
+            background-attachment: fixed;
+        } */
+       .ProgrammingCourses_container .green-box blockquote {
+            padding: 30px 329px;
+            color: black;
+        }
+        [class^="pull-quote"]:after,
+        [class^="pull-quote"]:before {
+            display: block;
+            position: relative;
+            top: -0.14em;
+            left: 0;
+            height: 0.56em;
+            content: "\201C";
+            margin-bottom: 0.138em;
+            margin-bottom: 0;
+            font-family: Arial Black, Helvetica, sans-serif;
+            font-size: 5em;
+            font-weight: 700;
+            line-height: 1;
+        }
+
+        [class^="pull-quote"] .after,
+        [class^="pull-quote"]:after {
+            top: -0.54em;
+            content: "\201E";
+            text-align: right;
+            height: 0.46em;
+        }
+        blockquote {
+            border-left: unset;
+        }
+       .ProgrammingCourses_container .green-box h3 {
+            margin: 0px;
+            text-align: center;
+            padding: 30px;
+            color: white;
+        }
+       .ProgrammingCourses_container .banner-container {
+            position: relative;
+            /* height: 462px; */
+            background-color: #05447e;
+        }
+        @media (max-width: 1150px) and (min-width: 870px) {
+           .ProgrammingCourses_container .green-box blockquote {
+                padding: 30px 249px;
+            }
+        }
+        @media (max-width: 870px) and (min-width: 650px) {
+           .ProgrammingCourses_container .green-box blockquote {
+                padding: 30px 149px;
+            }
+        }
+
+        @media (max-width: 650px) and (min-width: 350px) {
+           .ProgrammingCourses_container .green-box blockquote {
+                padding: 20px 49px;
+            }
+        }
+       .ProgrammingCourses_container .code-class button {
+            background-color: #ff931e;
+            border: 2px solid black;
+            font-size: 21px;
+            font-weight: 700;
+            border-radius: 9px;
+            padding: 7px;
+        }
+
+        @media (max-width: 650px) and (min-width: 250px) {
+           .ProgrammingCourses_container .banner-text h2 {
+                font-size: 46px;
+            }
+           .ProgrammingCourses_container .banner-text p {
+                font-size: 19px;
+            }
+           .ProgrammingCourses_container .code-class button {
+                font-size: 16px;
+            }
+        }
+       .ProgrammingCourses_container .games-container {
+            background-color: #f6f6f6;
+        }
+       .ProgrammingCourses_container .games-container div {
+            margin-top: 10px;
+        }
+       .ProgrammingCourses_container .game-box {
+            background-color: white;
+            cursor: pointer;
+        }
+       .ProgrammingCourses_container .game-image img {
+            height: 141px;
+            width: 100%;
+            border-radius: 5px;
+        }
+       .ProgrammingCourses_container .game-header {
+            padding: 0px 2px 2px 6px;
+            text-align: center;
+        }
+
+       .ProgrammingCourses_container .cod-tab-list .cod-nav-pills {
+        width: 100%;
+        display: flex;
+        overflow-x: overlay;
+        }
+       .ProgrammingCourses_container .cod-tab-list .cod-nav-pills>li+li {
+        margin-left: 6px;
+        }
+       .ProgrammingCourses_container .cod-tab-list .cod-nav-pills li{
+        background: radial-gradient(#eaeaea, transparent);
+        float: none;
+        }
+       .ProgrammingCourses_container .cod-tab-list .cod-nav-pills .active a{
+        background-color: #ffffff!important;
+        color: black!important;
+        border: 2px solid #337ab7;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-bottom: 2px solid white;
+        }
+       .ProgrammingCourses_container .cod-tab-list .cod-nav-pills .active:hover a{
+        background-color: #ffffff;
+        color: black;
+        }
+       .ProgrammingCourses_container .cod-tab-list .cod-nav-pills li a{
+        font-size: 18px;
+        text-transform: capitalize;
+        border: 1px solid #e3e3e3;
+        }
+       .ProgrammingCourses_container .cod-tab-content .tab-pane {
+        border-radius: 2px 4px 8px 3px;
+        box-shadow: 0 2px 10px #ddd;
+        padding: 20px;
+        background: #ffffff;
+        line-height: 22px;
+        }
+       .ProgrammingCourses_container .cod-tab-list pre {
+        display: unset;
+        padding: unset;
+        margin: unset;
+        font-size: unset;
+        line-height: unset;
+        color: unset;
+        word-break: unset;
+        word-wrap: unset;
+        background-color: unset;
+        border: unset;
+        border-radius: unset;
+        }
+       .ProgrammingCourses_container .cod-lang-logo img {
+        max-width: 210px;
+        }
+        @media (max-width: 974px) {
+       .ProgrammingCourses_container .banner-cod-img {
+            height: unset;
+        }
+       .ProgrammingCourses_container .img-code2 {
+            display: block;
+        }
+       .ProgrammingCourses_container .img-code1 {
+            display: none;
+        }
+        }
+        @media (min-width: 974px) {
+       .ProgrammingCourses_container .img-code2 {
+            display: none;
+        }
+       .ProgrammingCourses_container .img-code1 {
+            display: block;
+        }
+        }
+       .ProgrammingCourses_container .ProgrammingCourses_container .cod-tab-content .tab-pane ul li{
+            list-style: outside;
+            margin-left: 17px;
+        }
+
+        /* professional_course_ */
+        .ProgrammingCourses_container .professional_course_important ul li{
+            list-style: outside;
+            font-size: medium;
+            margin-left: 32px;
+        }
+        .ProgrammingCourses_container .cod-lang-logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .ProgrammingCourses_container .coding-milti-tab .nav>li>a {
+            position: relative;
+            display: block;
+            padding: 10px 15px;
+            border-radius: 4px;
+        }

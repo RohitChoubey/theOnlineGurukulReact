@@ -1,0 +1,119 @@
+#clouds path {
+    fill: #f60;
+    /*stroke: #fff;*/
+}
+#trianglePath1 {
+    fill: #f60;
+    stroke: #fff;
+}
+
+#trianglePath2 {
+    fill: #f60;
+    stroke: #fff;
+}
+#bigHalfCircle path {
+    fill: #f60;
+    stroke: #fff;
+}
+#curveUpColor path,
+#curveDownColor path {
+    fill: #f60;
+    stroke: #fff;
+}
+svg#bigTriangleColor {
+    pointer-events: none;
+}
+
+#bigTriangleColor path {
+    fill: #f60;
+    stroke: #fff;
+    stroke-width: 2;
+}
+.demoClasses_container i.fa.fa-play {
+    color: #fff;
+    background: #f60;
+    padding: 10px;
+    font-size: 36px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 51px;
+    padding-left: 15px;
+    margin-left: -3px;
+    margin-top: -22px;
+}
+.demoClasses_container .iq-waves {
+    cursor: pointer;
+    position: absolute;
+    /* width: 384px; */
+    width: 13rem;
+    /* height: 384px; */
+    height: 16rem;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    z-index: 2;
+}
+.demoClasses_container .themeix-video-play {
+    z-index: 3;
+    width: 60px;
+    height: 60px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+/* .demoClasses_container .iq-waves .wave-1 {
+    animation-delay: 2s;
+}
+.demoClasses_container .iq-waves .wave-2 {
+    animation-delay: 0s;
+}
+.demoClasses_container .iq-waves .wave-3 {
+    animation-delay: 0s;
+} */
+
+.demoClasses_container .iq-waves .waves {
+    position: absolute;
+    width: 14rem;
+    height: 14rem;
+    background: #ff660057;
+    opacity: 0;
+    border-radius: 320px;
+    background-clip: padding-box;
+    -webkit-animation: waves 3s ease-in-out infinite;
+    animation: waves 3s ease-in-out infinite;
+}
+.demoClasses_container .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.demoClasses_container .about-imgs {
+    position: relative;
+    z-index: 1;
+    margin-right: 0;
+    padding: 0 0;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px 1px orange
+}
+.demoClasses_container .about-imgs1 {
+    padding-top: 50px;
+}
+.demoClasses_container .about-imgs1 {
+    padding-bottom: 20px;
+}
+.demoClasses_container .about-imgs img{
+    border-radius: 15px;
+}
+.demoClasses_container .about-imgs:hover img{
+    transition: 2s;
+    transform: scale(1.7);
+}

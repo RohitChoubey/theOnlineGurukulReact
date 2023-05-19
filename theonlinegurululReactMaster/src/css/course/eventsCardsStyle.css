@@ -1,0 +1,89 @@
+
+.ch-item {
+    width: 100%;
+    /* height: 100%; */
+    border-radius: 50%;
+    position: relative;
+    cursor: default;
+    box-shadow: inset 0 0 0 0 rgb(200 95 66 / 40%), inset 0 0 0 16px rgb(255 255 255 / 60%), 0 1px 2px rgb(0 0 0 / 10%);
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.ch-img-a {
+    /* background-image: url("images/iot2.html"); */
+    cursor: pointer;
+    background-repeat: no-repeat;
+    width: 170px;
+    cursor: pointer;
+    height: 150px;
+    background-position: center;
+}
+.ch-item:before {
+    content: '';
+    display: table;
+}
+.ch-info {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+}
+.coming-soon {
+    text-align: center;
+    color: #fff!important;
+    margin: 45px 0;
+    font-weight: 100;
+    font-size: 18px;
+}
+.event_course_title {
+    font-size: 22px;
+}
+.comong-soons {
+    padding: 12px 0;
+    text-align: center;
+    color: #ffa500;
+    text-decoration: none;
+    font-size: 19px;
+}
+.comong-soons-p {
+    font-size: 14px;
+    text-align: left;
+    padding: 0;
+}
+.group-title-index .bottom-title:after, .group-title-index .bottom-title:before {
+    position: absolute;
+    content: '';
+    width: 22px;
+    height: 2px;
+    background-color: #f60;
+    top: 50%;
+    margin-top: -5px;
+}
+.ch-item:hover .ch-info {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+.ch-item:hover {
+    box-shadow: inset 0 0 0 110px rgb(200 95 66 / 50%), inset 0 0 0 16px rgb(255 255 255 / 80%), 0 1px 2px rgb(0 0 0 / 10%);
+}
+.center_containerEvent {
+    display: flex;
+    justify-content: center;
+}

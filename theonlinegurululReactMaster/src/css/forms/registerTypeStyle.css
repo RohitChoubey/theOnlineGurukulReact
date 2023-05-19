@@ -1,0 +1,257 @@
+.login-ul-li {
+    margin: 0 !important;
+}
+.aboutImage {
+    position: relative;
+    overflow: hidden;
+}
+.services-login1 {
+    padding: 110px 0px 110px;
+    position: relative;
+    z-index: 1;
+    background-image: url('../../../public/assets/images/classes-bg.jpg');
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+.student-logins {
+    width: 23%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 18px;
+}
+.slider-logina1 {
+    width: 23%;
+    margin: 0 auto;
+    padding: 0;
+}
+.loginx {
+    text-align: left;
+}
+.register input[type="password"],
+.register input[type="text"],
+input.pass,
+input.user {
+    width: 100%;
+    margin: 0 0 15px;
+    padding: 10px;
+    height: 34px;
+    background-image: linear-gradient(to bottom, #dddddd7a, #fff);
+    border: none;
+    outline: 0;
+    color: orange;
+    font-weight: 600;
+}
+select.pass1 {
+    width: 100%;
+    margin: 0 0 15px;
+    padding: 10px;
+    height: 34px;
+    background-image: linear-gradient(to bottom, #dddddd7a, #fff);
+    border: none;
+    outline: 0;
+    font-weight: 600;
+}
+/* .loginx ul {
+    float: left;
+    list-style: none;
+    display: inline-block;
+    padding-top: 0;
+}
+.loginx ul li input[type="checkbox"] {
+    display: none;
+} */
+.loginx ul li input[type="checkbox"] + label {
+    position: relative;
+    padding-left: 31px;
+    border: #f0f8ff;
+    color: #2b82ad;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.loginx ul li input[type="checkbox"] + label span:first-child {
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    border: 2px solid #2b82ad;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 4px;
+}
+.loginx ul li input[type="checkbox"]:checked + label span:first-child:before { 
+    content: ""; 
+    background-image: url('../../../public/assets/images/tick.png') no-repeat;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    font-size: 10px;
+    width: 10px;
+    height: 10px;
+  }
+.email-box {
+    color: #165288 !important;
+}
+.logins-btn {
+    float: right;
+}
+.reg h3 {
+    font-size: 16px;
+    font-weight: 600;
+    float: left;
+    text-align: left;
+    margin-top: 14px;
+}
+ 
+a.popup-with-zoom-anim {
+    text-decoration: none;
+    margin-top: 7px;
+    color: #2b82ad;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+a.popup-with-zoom-anim:hover {
+    color: orange;
+}
+.hvr-underline-from-left:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: orange;
+    height: 3px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.hvr-underline-from-left:active:before,
+.hvr-underline-from-left:focus:before,
+.hvr-underline-from-left:hover:before {
+    right: 0;
+}
+@media screen and (max-width: 1920px) {
+    .student-logins {
+        width: 25%;
+    }
+    .slider-logina1 {
+        width: 20%;
+    }
+}
+@media screen and (max-width: 1680px) {
+    .student-logins {
+        width: 30%;
+    }
+    .slider-logina1 {
+        width: 23%;
+    }
+    .student-register {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .student-logins {
+        width: 26%;
+    }
+    .slider-logina1 {
+        width: 26%;
+    }
+}
+.round-btn-training {
+    border-radius: 50%;
+    border: 10px solid #cfdcec;
+    width: 200px;
+    height: 200px;
+    background: #4679bd;
+    box-shadow: 0 0 3px grey;
+}
+.round-btn-training:hover {
+    background: orange;
+}
+.captionLink {
+    width: 100%;
+    height: 44px;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 44px;
+    text-indent: 13px;
+    background-color: #0060b1;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+}
+.captionLink {
+    background-color: #00000052!important;
+}
+@media (min-width: 1200px) {
+    .captionLink, .captionLink:hover {
+        text-indent: 13px;
+        height: 44px;
+        line-height: 44px;
+    }
+}
+@media (min-width: 992px) {
+    .captionLink, .captionLink:hover {
+        text-indent: 10px;
+        height: 36px;
+        line-height: 36px;
+    }   
+}
+@media (min-width: 768px) {
+    .captionLink, .captionLink:hover {
+        text-indent: 10px;
+        height: 30px;
+        line-height: 30px;
+    }
+}
+.captionLink>span {
+    background-image: url('../../../public/assets/img/read_more_link.png');
+    background-repeat: no-repeat;
+    width: 8px;
+    height: 13px;
+    display: inline-block;
+    float: right;
+    margin: 16px 10px 0 0;
+}
+@media (min-width: 1200px) {
+    .captionLink>span {
+        margin: 16px 10px 0 0;
+    } 
+}
+@media (min-width: 992px) {
+    .captionLink>span {
+        margin: 11px 10px 0 0;
+    }
+}
+@media (min-width: 768px) {
+    .captionLink>span {
+        margin: 9px 10px 0 0;
+    }
+}
+.aboutImage img {
+    transition: 2s;
+}
+.aboutImage img:hover {
+    transition: 2s;
+}
+.aboutImage img:hover {
+    transform: scale(1.3);
+}
+.captionLink {
+    font-size: 14px;
+}
+.captionLink:hover {
+    background-color: #454547c2!important;
+}

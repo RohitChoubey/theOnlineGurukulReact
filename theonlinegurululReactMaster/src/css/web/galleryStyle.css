@@ -1,0 +1,38 @@
+.gallery_container .gallery-bg-sec{
+    background-image: url(../../../public//assets/web/images/new-images/exit-popup-bg.jpg );
+      background-repeat: repeat;
+      background-position: center;
+      width: 100%;
+      margin-top: 12px;
+  }
+  .gallery_container .gallery .col-lg-3, .gallery_container .col-md-4, .gallery_container  .col-sm-6 {
+    padding-left: 0px;
+    padding-bottom: 23px;
+  }
+  .gallery_container .galarry_heading {
+        font-family: "Montserrat", Arial, sans-serif;
+        font-size: 2rem;
+        font-weight: 500;
+        text-align: center;
+        /* padding: 1.5rem 0; */
+        color: #1a1a1a;
+    }
+    .gallery_container  .gallery_item {
+      min-width: 278px;
+      height: 252px;
+      flex: 1 0 24rem;
+      margin: 1rem;
+      box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+      overflow: hidden;
+    }
+  
+    .gallery_container  .gallery_image {
+        display: block;
+        transition: transform 400ms ease-out;
+        width: -webkit-fill-available;
+        height: -webkit-fill-available;
+    }
+  
+    .gallery_container  .gallery_image:hover {
+        transform: scale(1.15);
+    }

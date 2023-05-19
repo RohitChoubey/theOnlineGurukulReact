@@ -1,0 +1,192 @@
+body:not(.modal-open){
+    padding-right: 0px !important;
+  }
+  .Ddays_Blogheader_section .modal.fade{
+      opacity:1;
+    }
+    .Ddays_Blogheader_section .modal.fade .modal-dialog {
+       -webkit-transform: translate(0);
+       -moz-transform: translate(0);
+       transform: translate(0);
+    }
+    .Ddays_Blogheader_section .main-celebration-bl-container {
+      display: flex;
+      justify-content: space-around;
+    }
+    .Ddays_Blogheader_section .main-celebration-bl1 {
+      max-width: 972px;
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 0 8px 0 rgb(0 0 0 / 8%);
+      border: 1px solid black;
+      border-top: 3px solid orange;
+      background-color: #ffffff;
+      margin-bottom: 16px;
+    }
+    .Ddays_Blogheader_section .main-image1{
+      border-radius: 7px;
+    }
+    .Ddays_Blogheader_section .blogtitle01 {
+      text-transform: capitalize;
+    }
+    .Ddays_Blogheader_section .patience-movemant {
+      position: relative;
+    }
+    .Ddays_Blogheader_section .patience-movemant #particles-js {
+      z-index: -99;
+    }
+
+
+    /* blog page css start */
+
+    .Ddays_Blogheader_section .Blogheader {
+    text-align: center;
+    margin-top: 11px;
+    width: 98%;
+    padding: 10px 0px;
+}
+.Ddays_Blogheader_section .openblog-contant {
+  cursor: pointer;
+   transition: all 0.3s ease;
+}
+.Ddays_Blogheader_section #blog_open {
+  transition: opacity .15s cubic-bezier(0.9, 0.3, 1, 1);
+  transition-delay: 0.3s;
+}
+ 
+.Ddays_Blogheader_section .main-celebration-bl {
+    border: 1px solid black;
+    max-width: 372px;
+    width: 100%;
+    height: 348px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.08);
+    border-top: 3px solid orange;
+    background-color: #ffffff;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+.Ddays_Blogheader_section .main-celebration-bl .image-field {
+    cursor: pointer;
+}
+.Ddays_Blogheader_section .main-celebration-bl .image-field .main-image {
+    width: 388px;
+    border-radius: 8px;
+    border-bottom-left-radius: unset;
+    border-bottom-right-radius: unset;
+    height: 247px;
+}
+.Ddays_Blogheader_section .main-celebration-bl .blogtitle {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.33;
+    color: #000000;
+    overflow: hidden;
+    height: 31px;
+    text-transform: capitalize;
+}
+ 
+.Ddays_Blogheader_section .blog_model_container .modal-header {
+  background-image: linear-gradient(#ff6200,rgba(255,128,0,.9));
+  text-transform: capitalize;
+  color: white;
+}
+.Ddays_Blogheader_section #blog_openModalLabel {
+  text-align: center;
+  font-weight: bold;
+  font-variant: traditional;
+}
+.Ddays_Blogheader_section .blog_model_container .modal-dialog {
+  margin: 23px 30px 9px 30px;
+  width: auto;
+  max-width: unset;
+  display: flex;
+  justify-content: center;
+}
+.Ddays_Blogheader_section .watermark-logo {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  position: absolute;
+  width: 40%;
+  z-index: 0;
+  opacity: 0.1;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.Ddays_Blogheader_section .blogcontant-header {
+  font-family: sans-serif;
+  font-size: 14px;
+  color: black;
+  overflow: hidden;
+  height: 60px;
+  text-transform: capitalize;
+}
+.Ddays_Blogheader_section .blog_main_heading {
+      padding: 3px 7px 3px 7px;
+  }
+  .Ddays_Blogheader_section div#para_contant {
+    color: black;
+    font-size: 18px;
+}
+@media (min-width: 400px) and (max-width: 767px) {
+  .Ddays_Blogheader_section .Blogheader img {
+        width: 160px;
+    }
+}
+@media (max-width: 400px) {
+  .Ddays_Blogheader_section .Blogheader img {
+        width: 117px;
+        margin-left: 12px;
+    }
+}
+@media (max-width: 768px) {
+  .Ddays_Blogheader_section .main-celebration-bl .image-field {
+        width: unset;
+    }
+    .Ddays_Blogheader_section .main-celebration-bl {
+        max-width: unset;
+        height: unset;
+        margin-bottom: 10px;
+    }
+    .Ddays_Blogheader_section .main-celebration-bl .image-field .main-image {
+        width: 762px;
+        height: 177px;
+    }
+    .Ddays_Blogheader_section .main-celebration-bl .blogtitle {
+        overflow: hidden;
+        height: unset;
+        margin-bottom: 12px;
+    }
+    .Ddays_Blogheader_section .watermark-logo {
+      top: 50%;
+    }
+    .Ddays_Blogheader_section .blg-model-img{
+      max-width: 300px;
+    }
+}
+@media (min-width: 768px) {
+  .Ddays_Blogheader_section .blg-model-img{
+    max-width: 490px;
+  }
+  .Ddays_Blogheader_section #blog_openModalLabel {
+    font-size: 34px;
+  }
+}
+
+.Ddays_Blogheader_section .blog_model_container .row {
+  margin-right: -15px;
+  margin-left: -15px;
+  display: unset;
+  flex-wrap: unset;
+}
+.Ddays_Blogheader_section .pull-right {
+  float: right!important;
+}
+.Ddays_Blogheader_section .blog_model_container .container-fluid {
+  width: unset;
+}
+/* .Ddays_Blogheader_section   */

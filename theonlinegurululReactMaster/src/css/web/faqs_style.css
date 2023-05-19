@@ -1,0 +1,186 @@
+.faqs_sevicss_cd.h1, .faqs_sevicss_cd.h2, .faqs_sevicss_cd.h3, .faqs_sevicss_cd.h4, .faqs_sevicss_cd.h5, .faqs_sevicss_cd.h6, .faqs_sevicss_cd h1, .faqs_sevicss_cd h2, .faqs_sevicss_cd h3, .faqs_sevicss_cd h4, .faqs_sevicss_cd h5, .faqs_sevicss_cd h6 {
+    font-family: apercu,sans-serif!important;
+}
+.faqs_sevicss_cd .services-login1 {
+    min-height: 100%;
+}
+.faqs_sevicss_cd .services-logins {
+    padding: 2em 0;
+}
+.faqs_sevicss_cd .services-login1 {
+    padding: 60px 0 80px;
+    position: relative;
+    z-index: 1;
+    background-image: url(https://www.theonlinegurukul.com/assets/web/images/classes-bg.jpg);
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+.faqs_sevicss_cd .services {
+    padding: 2em 0;
+}
+.faqs_sevicss_cd .group-title-index {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
+    color: #000;
+}
+.faqs_sevicss_cd .center-title {
+    color: #202121;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 0 0 15px 0;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+.faqs_sevicss_cd .panel-group {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 3px;
+    box-shadow: 0 5px 30px 0 rgb(0 0 0 / 4%);
+    padding: 24px 30px;
+}
+.faqs_sevicss_cd .panel {
+    border: medium none;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0 0 15px 10px;
+}
+.faqs_sevicss_cd .panel-group .panel {
+    margin-bottom: 0;
+    border-radius: 4px;
+} 
+.faqs_sevicss_cd .panel-default {
+    border-color: #ddd;
+}
+.faqs_sevicss_cd .panel {
+    /* margin-bottom: 20px; */
+    background-color: #fff;
+    border: 1px solid #0000;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+    box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+}
+.faqs_sevicss_cd .panel-heading {
+    border-radius: 30px;
+    padding: 0;
+}
+.faqs_sevicss_cd .panel-default>.panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+.faqs_sevicss_cd .collapse {
+    display: none;
+}
+.faqs_sevicss_cd .panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
+.faqs_sevicss_cd .panel-title a.collapsed {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    color: #333;
+}
+.faqs_sevicss_cd .panel-title a {
+    background: #ffa500 none repeat scroll 0 0;
+    border: 1px solid #0000;
+    border-radius: 30px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 20px 12px 50px;
+    position: relative;
+    transition: all .3s ease 0s;
+}
+.faqs_sevicss_cd .panel-body {
+    background: #0000 none repeat scroll 0 0;
+    border-top: medium none;
+    padding: 20px 25px 10px 9px;
+    position: relative;
+}
+.faqs_sevicss_cd .panel-body p {
+    border-left: 1px dashed #8c8c8c;
+    padding-left: 25px;
+}
+.faqs_sevicss_cd p {
+    line-height: 26px;
+    font-family: open sans,sans-serif!important;
+    margin: 0 0 15px;
+}
+.faqs_sevicss_cd .carousel-inner>.item>a>img, .faqs_sevicss_cd .carousel-inner>.item>img, .faqs_sevicss_cd .img-responsive, .faqs_sevicss_cd .thumbnail a>img, .faqs_sevicss_cd .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.faqs_sevicss_cd .services-login1 {
+    min-height: 100%;
+}
+.faqs_sevicss_cd .services-logins {
+    padding: 2em 0;
+}
+.faqs_sevicss_cd .services-login1 {
+    padding: 60px 0 80px;
+    position: relative;
+    z-index: 1;
+    background-image: url("https://www.theonlinegurukul.com/assets/web/images/classes-bg.jpg");
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+.faqs_sevicss_cd .group-title-index {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
+    color: #000;
+}
+.faqs_sevicss_cd .group-title-index .center-title {
+    color: #202121;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 0 0 15px 0;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+.faqs_sevicss_cd .group-title-index .bottom-title {
+    position: relative;
+    display: inline-block;
+}
+.faqs_sevicss_cd .group-title-index .bottom-title .bottom-icon {
+    margin: 0 auto;
+    font-size: 26px;
+    color: #f60;
+}
+.faqs_sevicss_cd  .panel-title a.collapsed::after {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    box-shadow: none;
+    color: #333;
+    content: "ï„‡";
+}
+.faqs_sevicss_cd .panel-title a.collapsed::after, .panel-title a::after {
+    background: #ffa500 none repeat scroll 0 0;
+    border: 1px solid #0000;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 58%);
+    color: #fff;
+    content: "ï„‡";
+    font-family: fontawesome;
+    font-size: 25px;
+    height: 55px;
+    left: -20px;
+    line-height: 55px;
+    position: absolute;
+    text-align: center;
+    top: -5px;
+    transition: all .3s ease 0s;
+    width: 55px;
+}
+.faqs_sevicss_cd .collapse.in {
+    display: block;
+}
+/* .faqs_sevicss_cd  */

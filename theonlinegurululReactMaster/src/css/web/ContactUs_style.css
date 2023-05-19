@@ -1,0 +1,177 @@
+.ContactUs_container .horizontal-line {
+    margin-top: 1px;
+margin-bottom: 4px;
+border: 0;
+border-top: 1px solid #eee;
+}
+.ContactUs_container .custom_content {
+    padding: 35px 0;
+    background: #fff;
+}
+.ContactUs_container .form-area {
+    background-color: #fafafa;
+    padding: 0 40px 12px;
+    margin: 50px 0 60px;
+    border: 1px solid #ededed;
+}
+.ContactUs_container .custom_content.custom h3 {
+    text-transform: uppercase;
+}
+@media (min-width: 992px) {
+    .ContactUs_container h3 {
+        font-size: 22px;
+    }
+}
+@media (min-width: 768px) {
+    .ContactUs_container h3 {
+        font-size: 18px;
+    }
+}
+.ContactUs_container .arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 20px solid #0000;
+    border-bottom: 50px solid #0000;
+    border-left: 40px solid #fff;
+    position: absolute;
+    left: 0;
+    top: 258px;
+}
+.ContactUs_container .contact_forms {
+    margin-top: 0!important;
+    margin-bottom: 6px!important;
+}
+.ContactUs_container .form-group {
+    margin-bottom: 15px;
+}
+@media (min-width: 1200px) {
+    .ContactUs_container .col-lg-6 {
+        width: 50%;
+    }
+}
+.ContactUs_container .contact_form .form-control {
+    box-shadow: none;
+}
+.ContactUs_container .form-control {
+    color: #555;
+}
+.ContactUs_container .input-sm {
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+.ContactUs_container .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.ContactUs_container input {
+    line-height: normal;
+}
+.ContactUs_container select {
+    writing-mode: horizontal-tb !important; 
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    box-sizing: border-box;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    cursor: default;
+    margin: 0em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    border-radius: 0px;
+}
+.ContactUs_container .list_block, .sidebar_item, .formArea {
+    border-top-color: #ededed;
+}
+.ContactUs_container .side_items {
+    margin: 50px 0 20px!important;
+}
+.ContactUs_container .sidebar_item {
+    border-top: 3px solid #49c32c;
+    margin: 0 0 20px;
+}
+.ContactUs_container .list_block {
+    border: 1px solid #dce4ea;
+    padding: 15px 12px 14px;
+    border-top: 3px solid #49c32c;
+    margin: 0 0 20px;
+}
+.ContactUs_container .custom_content.custom h3 {
+    text-transform: uppercase;
+}
+.ContactUs_container li, ul {
+    list-style: outside none none;
+}
+.ContactUs_container ul.contact_info li {
+    width: 100%;
+    display: inline-flex;
+    font-weight: 400;
+    color: #000;
+    margin: 0 0 5px;
+}
+.ContactUs_container ul.contact_info li a {
+    color: #000;
+    font-weight: 400;
+}
+.ContactUs_container ul.contact_info li .fa {
+    color: #f60;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 5px;
+    width: 20px;
+}
+hr {
+    height: 0px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.ContactUs_container .horizontal-line {
+    margin-top: 1px;
+    margin-bottom: 4px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+.ContactUs_container hr:not([size]) {
+    height: 0.4px;
+}
+.ContactUs_container ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0rem;
+}
+/* .ContactUs_container  */
+/* .ContactUs_container  */
+/* .ContactUs_container  */
+/* .ContactUs_container  */
+/* .ContactUs_container  */
+/* .ContactUs_container  */

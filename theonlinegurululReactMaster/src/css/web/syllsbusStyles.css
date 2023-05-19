@@ -1,0 +1,100 @@
+#clouds path {
+    fill: #f60;
+    /*stroke: #fff;*/
+  }
+  #trianglePath1 {
+    fill: #f60;
+    stroke: #fff;
+  }
+
+  .syllabusContainer #trianglePath2 {
+    fill: #f60;
+    stroke: #fff;
+  }
+  .syllabusContainer #bigHalfCircle path {
+    fill: #f60;
+    stroke: #fff;
+  }
+  .syllabusContainer #curveUpColor path,
+  .syllabusContainer #curveDownColor path {
+    fill: #f60;
+    stroke: #fff;
+  }
+  .syllabusContainer svg#bigTriangleColor {
+    pointer-events: none;
+  }
+
+  .syllabusContainer #bigTriangleColor path {
+    fill: #f60;
+    stroke: #fff;
+    stroke-width: 2;
+  }
+  .syllabusContainer {
+      padding-top: 20px;
+  }
+  .syllabusContainer .services-how {
+    background-image: linear-gradient(to bottom,#f6f6f6,#fff);
+}
+.syllabusContainer .services {
+    padding: 2em 0;
+}
+.syllabusContainer .row-spec {
+    margin-left: 0;
+    margin-right: 0;
+}
+.syllabusContainer .about-area.pt-145.pb-155 {
+    padding: 30px 0;
+}
+.syllabusContainer .panel-body {
+    padding: 15px;
+}
+.syllabusContainer .grid1-courses {
+    margin-top: 30px;
+    padding: 18px 17px;
+}
+.syllabusContainer .grid1 {
+    color: #000!important;
+    min-height: 266px;
+    text-align: center;
+    background: #fff;
+    -webkit-box-shadow: 0 0 40px #aaa;
+    -moz-box-shadow: 0 0 40px #aaa;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+    -o-transition: all .5s;
+    -ms-transition: all .5s;
+    -webkit-box-shadow: 0 1px 8px 0 rgb(158 158 158 / 75%);
+    -moz-box-shadow: 0 1px 8px 0 rgba(158,158,158,.75);
+    box-shadow: 0 1px 8px 0 rgb(158 158 158 / 75%);
+}
+.syllabusContainer .grid1 p {
+    line-height: 24px;
+    font-size: 16px;
+    letter-spacing: .5px;
+    font-family: open sans,sans-serif!important;
+}
+.syllabusContainer ul.contact_info li {
+    width: 100%;
+    display: inline-flex;
+    font-weight: 400;
+    color: #000;
+    margin: 0 0 5px;
+}
+.syllabusContainer ul.contact_info li a {
+    color: #000;
+    font-weight: 400;
+}
+.syllabusContainer ul.contact_info li .fa {
+    color: #f60;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 5px;
+    width: 20px;
+}
+.syllabusContainer .grid1:hover {
+    background: #77777730;
+} 
+.syllabusContainer  ul.contact_info li a:hover{
+    color: #f60;
+}

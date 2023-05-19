@@ -1,0 +1,304 @@
+.banner-container .row {
+    margin-right: -0px;
+    margin-left: -0px;
+  }
+  .banner-text {
+    height: 427px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-cod-img {
+    height: 533px;
+    display: flex;
+    align-content: flex-end;
+  }
+.banner-text h2 {
+    margin-top: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ff931e;
+    font-size: 40px;
+    font-weight: bold;
+}
+.banner-text p {
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+.green-box {
+    /* background: url(../../../public/assets/web/images/coding/code.jpg); */
+    background-attachment: fixed;
+}
+.green-box blockquote {
+    padding: 30px 329px;
+    color: black;
+}
+[class^="pull-quote"]:after,
+[class^="pull-quote"]:before {
+    display: block;
+    position: relative;
+    top: -0.14em;
+    left: 0;
+    height: 0.56em;
+    content: "\201C";
+    margin-bottom: 0.138em;
+    margin-bottom: 0;
+    font-family: Arial Black, Helvetica, sans-serif;
+    font-size: 5em;
+    font-weight: 700;
+    line-height: 1;
+}
+
+[class^="pull-quote"] .after,
+[class^="pull-quote"]:after {
+    top: -0.54em;
+    content: "\201E";
+    text-align: right;
+    height: 0.46em;
+}
+blockquote {
+    border-left: unset;
+}
+.green-box h3 {
+    margin: 0px;
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+.banner-container {
+    position: relative;
+    /* height: 462px; */
+    background-color: #05447e;
+}
+@media (max-width: 1150px) and (min-width: 870px) {
+    .green-box blockquote {
+        padding: 30px 249px;
+    }
+}
+@media (max-width: 870px) and (min-width: 650px) {
+    .green-box blockquote {
+        padding: 30px 149px;
+    }
+}
+
+@media (max-width: 650px) and (min-width: 350px) {
+    .green-box blockquote {
+        padding: 20px 49px;
+    }
+}
+.code-class button {
+    background-color: #ff931e;
+    border: 2px solid black;
+    font-size: 21px;
+    font-weight: 700;
+    border-radius: 9px;
+    padding: 7px;
+}
+.guest_schools_benefits {
+    background: #fff;
+}
+.guest_school_box_info {
+    padding: 12px;
+}
+.guest_schools_head {
+    text-align: center;
+    padding: 0px 50px 10px 50px;
+}
+.box_image.text-center {
+    margin-top: 10px;
+}
+.guist_border {
+    border: 3px solid #08a451;
+    border-radius: 5px;
+}
+
+.guist_border2 {
+    border: 3px solid #f26522;
+    border-radius: 5px;
+}
+.guist_border3 {
+    border: 3px solid #7f4098;
+    border-radius: 5px;
+}
+
+.guist_border4 {
+    border: 3px solid #ed2028;
+    border-radius: 5px;
+}
+
+.guest_schools_text {
+    padding: 0px 5px 10px 20px;
+}
+@media (max-width: 650px) and (min-width: 250px) {
+    .banner-text h2 {
+        font-size: 46px;
+    }
+    .banner-text p {
+        font-size: 19px;
+    }
+    .code-class button {
+        font-size: 16px;
+    }
+}
+.guist_border h4,
+.guist_border2 h4,
+.guist_border3 h4,
+.guist_border4 h4 {
+    border-bottom: 2px solid;
+}
+.games-container {
+    background-color: #f6f6f6;
+}
+.games-container div {
+    margin-top: 10px;
+}
+.game-box {
+    background-color: white;
+    cursor: pointer;
+}
+.game-image img {
+    height: 141px;
+    width: 100%;
+    border-radius: 5px;
+}
+.game-header {
+    padding: 0px 2px 2px 6px;
+    text-align: center;
+}
+@media (min-width: 768px) {
+    .guist_border,
+    .guist_border2,
+    .guist_border3,
+    .guist_border4 {
+        height: 330px;
+    }
+}
+
+.cod-tab-list .cod-nav-pills {
+  width: 100%;
+  display: flex;
+  overflow-x: overlay;
+}
+.cod-tab-list .cod-nav-pills>li+li {
+  margin-left: 6px;
+}
+.cod-tab-list .cod-nav-pills li{
+  background: radial-gradient(#eaeaea, transparent);
+  float: none;
+}
+.cod-tab-list .cod-nav-pills .active a{
+  background-color: #ffffff!important;
+  color: black!important;
+  border: 2px solid #337ab7;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom: 2px solid white;
+}
+.cod-tab-list .cod-nav-pills .active:hover a{
+  background-color: #ffffff;
+  color: black;
+}
+.cod-tab-list .cod-nav-pills li a{
+  font-size: 18px;
+  text-transform: capitalize;
+  border: 1px solid #e3e3e3;
+  color: #f60;
+}
+.cod-tab-content .tab-pane {
+  border-radius: 2px 4px 8px 3px;
+  box-shadow: 0 2px 10px #ddd;
+  padding: 20px;
+  background: #ffffff;
+  line-height: 22px;
+}
+.cod-tab-list pre {
+  display: unset;
+  padding: unset;
+  margin: unset;
+  font-size: unset;
+  line-height: unset;
+  color: unset;
+  word-break: unset;
+  word-wrap: unset;
+  background-color: unset;
+  border: unset;
+  border-radius: unset;
+}
+.cod-lang-logo img {
+  max-width: 210px;
+}
+@media (max-width: 974px) {
+  .banner-cod-img {
+    height: unset;
+  }
+  .img-code2 {
+    display: block;
+  }
+  .img-code1 {
+    display: none;
+  }
+}
+@media (min-width: 974px) {
+  .img-code2 {
+    display: none;
+  }
+  .img-code1 {
+    display: block;
+  }
+}
+.cod-tab-content .tab-pane ul li{
+    list-style: inside;
+}
+
+/* bannn */
+.cd-center-banner-flex , .cd-center-Textile-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 24px;
+}
+.cd-center-banner-flex {
+    padding: 50px 61px;
+    background-color: #ffece5;
+    border-radius: 17px;
+    box-shadow: inset 0px -3px 0px 0px #ff6600;
+    border-top: 11px solid #f60;
+    border-left: 3px solid #f60;
+    border-right: 3px solid #f60;
+    margin: 19px 0;
+
+}
+.cd-center-Textile-flex {
+  text-transform: capitalize;
+}
+.cd-product-box .fa {
+  font-size: 37px;
+}
+.cd-product-box {
+  text-align: center;
+}
+.coding_programmingcontainer .cod-tab-list .cod-nav-pills .active a {
+    background-color: #fff!important;
+    color: #000!important;
+    border: 2px solid #337ab7;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom: 2px solid #fff;
+}
+.coding_programmingcontainer .coding-milti-tab {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.coding_programmingcontainer .coding-milti-tab .nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+.coding_programmingcontainer .h4, .coding_programmingcontainer h4 {
+    font-size: 18px;
+    font-family: apercu,sans-serif!important;
+}
+/* .coding_programmingcontainer   */

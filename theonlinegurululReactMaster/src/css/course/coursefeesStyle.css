@@ -1,0 +1,191 @@
+.each-slideimage {
+  min-Height: 453px;
+  background-Attachment: fixed;
+  background-Position: center;
+  background-Repeat: no-repeat;
+  background-Size: cover;
+}
+.slidecaptionBaneer {
+  background-color: #ffffffd9;
+  padding: 15px 13px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 30px;
+  margin-left: 35px;
+  width: 545px;
+}
+@media(max-width:768px) and (min-width:568px) {
+  .slidecaptionBaneer {
+    display: none;
+  }
+  .slide-container .each-slideimage {
+    min-Height: 253px!important;
+  }
+}
+@media(max-width:568px) {
+  .slidecaptionBaneer {
+    display: none;
+  }
+  .slide-container .each-slideimage {
+    min-Height: 153px!important;
+  }
+}
+.slidecaptionBaneer p span span:nth-child(1) {
+  color: #007aff;
+  font-style: italic;
+}
+.slidecaptionBaneer p span span:nth-child(2) {
+  color: #f47629;
+  font-style: italic;
+}
+.slidecaptionBaneer p span span{
+  line-height: 24px;
+  font-size: 14.3px;
+  font-family: open sans,sans-serif!important;
+  color: black;
+
+}
+/* ////////////////////////////// tab bar css //////////////////////////////*/
+.coursefees_container .tabbings-center {
+  text-align: center;
+  color: #000!important;
+  margin-bottom: 18px;
+}
+@media (min-width: 1292px) {
+  .coursefees_container h3 {
+      font-size: 22px;
+  }
+}
+.coursefees_container .count_inner {
+  width: auto;
+  /* min-height: 71px!important; */
+  padding: 0px 26px 10px;
+    border-radius: 9px;
+}
+.coursefees_container .count_inner {
+  margin: 12px 16px;
+  /* min-height: 130px!important; */
+  background: #fff;
+  -webkit-box-shadow: 0 0 40px #aaa;
+  -moz-box-shadow: 0 0 40px #aaa;
+  box-shadow: 0 0 40px #aaa;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+  -webkit-box-shadow: 0 1px 8px 0 rgb(158 158 158 / 75%);
+  -moz-box-shadow: 0 1px 8px 0 rgba(158,158,158,.75);
+  box-shadow: 0 1px 8px 0 rgb(158 158 158 / 75%);
+}
+.coursefees_container .tab-content h2 {
+  color: #0060b1;
+  cursor: pointer;
+}
+.coursefees_container .group-title-index {
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 2;
+  color: #000;
+}
+.coursefees_container .group-title-index .center-title {
+  color: #202121;
+  font-size: 30px;
+  font-weight: 800;
+  margin: 0 0 15px 0;
+  text-transform: uppercase;
+  line-height: 30px;
+}
+.coursefees_container .group-title-index .bottom-title {
+  position: relative;
+  display: inline-block;
+}
+.coursefees_container .group-title-index .bottom-title .bottom-icon {
+  margin: 0 auto;
+  font-size: 26px;
+  color: #f60;
+}
+.coursefees_container .group-title-index .bottom-title:after, .group-title-index .bottom-title:before {
+  position: absolute;
+  content: '';
+  width: 22px;
+  height: 2px;
+  background-color: #f60;
+  top: 50%;
+  margin-top: -5px;
+}
+.coursefees_container .group-title-index .bottom-title:before {
+  right: -32px;
+}
+.coursefees_container .fa-book:before {
+  content: "\f02d";
+}
+.coursefees_container .group-title-index .bottom-title:after {
+  left: -32px;
+}
+.coursefees_container .group-title-index .bottom-title:after, .group-title-index .bottom-title:before {
+  position: absolute;
+  content: '';
+  width: 22px;
+  height: 2px;
+  background-color: #f60;
+  top: 50%;
+  margin-top: -5px;
+}
+ 
+.coursefees_container  {
+  position: relative;
+  height: 100%;
+}
+.coursefees_container p {
+  line-height: 26px;
+  font-family: open sans,sans-serif!important;
+}
+.coursefees_container .aboutArea {
+  padding: 35px 0 40px;
+  background: #222c34;
+  background-image: linear-gradient(to bottom,#f6f6f6,#fff);
+}
+.coursefees_container .aboutArea, .aboutImage, .aboutTitle, .footer, .mainContent, .menuFooter {
+  width: 100%;
+  display: block;
+}
+.coursefees_container .title-block.sectionTitle {
+  display: inline-block;
+}
+.coursefees_container .upcoming_events .related_post_sec.single_post {
+  margin-bottom: 70px;
+  position: relative;
+  float: left;
+}
+.coursefees_container ul{
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+ @media (max-width :768px) {
+  .coursefees_container .news-boxInner > .rel_right  {
+    margin-top: 30px;
+    font-size: 16px;
+  }
+   
+ }
+ @media (min-width :768px) {
+  .coursefees_container .title-block.sectionTitle {
+    margin-bottom: 12px;
+  }
+ }
+.coursefees_container .news-contentx {
+  padding: 8px 0;
+}
+@media (min-width: 768px) {
+.coursefees_container .news-section .news-content {
+    border-right: 1px solid #dce4ea;
+}
+}
+.coursefees_container  .custom {
+  padding-bottom: 60px;
+}
+/* .coursefees_container  */
+/* .coursefees_container  */

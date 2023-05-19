@@ -1,0 +1,421 @@
+.teacherForm_container {
+    background-image: url(../../../public/assets/web/images/img-sign-in-background.jpg);
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+.teacherForm_container .register-teacher {
+    font-size: 17px!important;
+    margin: 0 0 0!important;
+}
+.teacherForm_container .register-stu {
+    letter-spacing: 0!important;
+    font-size: 18px!important;
+    text-transform: capitalize!important;
+    line-height: 18px!important;
+    margin: 0 0 14px!important;
+}
+.teacherForm_container .offer-spec {
+    position: relative;
+}
+.teacherForm_container .what-offer {
+    color: #000!important;
+}
+.teacherForm_container .register-stu1 {
+    display: block!important;
+    font-size: 15px!important;
+    margin-top: 8px!important;
+    letter-spacing: 0!important;
+    text-transform: capitalize!important;
+    color: #ff802c!important;
+    font-weight: 500!important;
+}
+.teacherForm_container .multisteps-form__form {
+    background: #fff;
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 17px 41px -21px #000;
+    padding: 20px 4px;
+    border-top: 6px solid #ffa500;
+    box-sizing: border-box;
+}
+.teacherForm_container .multisteps-form__title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.teacherForm_container .input-sm {
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+ 
+/* input Star mark css start */
+.teacherForm_container .margin-form1 {
+    display: inline-flex !important;
+    margin-bottom: 12px !important;
+}
+.teacherForm_container .m-btns-add {
+    background-color: #fff;
+    padding: 3px 8px;
+    border-radius: 20px;
+    font-size: 12px;
+    cursor: pointer;
+    padding-left: 15px;
+    border: 1px solid #ddd;
+}
+.teacherForm_container .multi1-buttons {
+    padding: 6px 20px !important;
+    margin-left: 12px;
+}
+
+.teacherForm_container li.opt.disabled.selected {
+    display: none;
+}
+.teacherForm_container .required-field-block {
+    position: relative;
+}
+
+.teacherForm_container .required-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin: -0.25em 0.25em 0em;
+    background-color: #e8e8e8;
+    border-color: #e8e8e8;
+    padding: 0.5em 0.8em;
+    color: rgba(0, 0, 0, 0.65);
+    text-transform: uppercase;
+    font-weight: normal;
+    border-radius: 0.325em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: background 0.1s linear;
+    -moz-transition: background 0.1s linear;
+    transition: background 0.1s linear; 
+}
+.teacherForm_container .required-icon {
+    background-color: transparent;
+    position: absolute;
+    top: 0em;
+    right: 1em;
+    z-index: 10;
+    margin: 0em;
+    width: 30px;
+    height: 30px;
+    padding: 0em;
+    text-align: center;
+    -webkit-transition: color 0.2s ease;
+    -moz-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+}
+
+.teacherForm_container .required-icon:after {
+    position: absolute;
+    content: "";
+    right: 1px;
+    top: 1px;
+    z-index: -1;
+    width: 0em;
+    height: 0em;
+    border-top: 0em solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 0em solid transparent;
+    border-right-color: inherit;
+    -webkit-transition: border-color 0.2s ease;
+    -moz-transition: border-color 0.2s ease;
+    transition: border-color 0.2s ease;
+}
+.teacherForm_container .required-icon .text {
+    color: #ff6705;
+    font-size: 16px;
+    margin: -1px 0 0 13px;
+}
+
+/* input Star mark css end */
+
+
+.teacherForm_container .has-error {
+    border-color: #a94442;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+}
+.teacherForm_container .has-error{
+    display: block!important;
+}
+.teacherForm_container .status_nameerror {
+    display: none;
+}
+.teacherForm_container input[type=date] {
+    padding-right: 24px;
+}
+.teacherForm_container  .m-btn {
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+.teacherForm_container  .btn.focus, .teacherForm_container.btn:focus, .teacherForm_container.btn:hover {
+    color: #333;
+    text-decoration: none;
+}
+.teacherForm_container  input[type=file] {
+    position: absolute;
+    opacity: 0;
+    z-index: -100;
+    display: block;
+}
+.teacherForm_container .ch1-img {
+    margin-top: 2px;
+    float: left;
+    font-weight: 500;
+}
+.teacherForm_container  label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.teacherForm_container  .choose-img {
+    float: right;
+    color: #fff;
+    background-color: #f60;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    padding: 4px;
+    margin-left: 11px;
+    border-radius: 12px;
+    margin-right: 0;
+}
+.teacherForm_container  .fa-angle-right:before {
+    content: "\f105";
+}
+.teacherForm_container  select {
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    box-sizing: border-box;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    cursor: default;
+    margin: 0em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    border-radius: 0px;
+}
+/* .teacherForm_container   */
+
+
+
+
+ .teacherForm_container .header__btn {
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #fff;
+    border: 1px solid #2c2c2c;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+  }
+ .teacherForm_container .header__btn:last-child {
+    margin-right: 0;
+  }
+ .teacherForm_container .header__btn:hover, .teacherForm_container .header__btn.js-active {
+    color: #fff;
+    background-color: #2c2c2c;
+  }
+  
+ .teacherForm_container .header {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+ .teacherForm_container .header__title {
+    margin-bottom: 30px;
+    font-size: 2.1rem;
+  }
+  
+ .teacherForm_container .content {
+    width: 95%;
+    margin: 0 auto 50px;
+  }
+  
+ .teacherForm_container .content__title {
+    margin-bottom: 40px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+ .teacherForm_container .content__title--m-sm {
+    margin-bottom: 10px;
+  }
+  
+ .teacherForm_container .multisteps-form__progress {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+  }
+  
+ .teacherForm_container .multisteps-form__progress-btn {
+    transition-property: all;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    position: relative;
+    padding-top: 20px;
+    color: rgba(108, 117, 125, 0.7);
+    text-indent: -9999px;
+    border: none;
+    background-color: transparent;
+    outline: none !important;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  @media (min-width: 500px) {
+   .teacherForm_container .multisteps-form__progress-btn {
+      text-indent: 0;
+    }
+  }
+ .teacherForm_container .multisteps-form__progress-btn:before {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    display: block;
+    width: 15px;
+    height: 15px;
+    content: "";
+    transform: translateX(-50%);
+    transition: all 0.15s linear 0s, transform 0.15s cubic-bezier(0.05, 1.09, 0.16, 1.4) 0s;
+    border: 2px solid currentColor;
+    border-radius: 20%;
+    background-color: #fff;
+    box-sizing: border-box;
+    z-index: 3;
+  }
+  /* .teacherForm_container .step_bullateBtn1:before {
+    content: "1";
+  }
+  .teacherForm_container .step_bullateBtn2:before {
+    content: "2";
+  }
+  .teacherForm_container .step_bullateBtn3:before {
+    content: "3";
+  }
+  .teacherForm_container .step_bullateBtn4:before {
+    content: "4";
+  } */
+ .teacherForm_container .multisteps-form__progress-btn:after {
+    position: absolute;
+    top: 7px;
+    left: calc(-50% - 13px / 2);
+    transition-property: all;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    display: block;
+    width: 100%;
+    height: 2px;
+    content: "";
+    background-color: currentColor;
+    z-index: 1;
+  }
+ .teacherForm_container .multisteps-form__progress-btn:first-child:after {
+    display: none;
+  }
+ .teacherForm_container .multisteps-form__progress-btn.js-active {
+    color: #f60;
+  }
+ .teacherForm_container .multisteps-form__progress-btn.js-active:before {
+    transform: translateX(-50%) scale(1.2);
+    background-color: currentColor;
+  }
+  
+ .teacherForm_container .multisteps-form__form {
+    position: relative;
+  }
+  
+ .teacherForm_container .multisteps-form__panel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+  }
+ .teacherForm_container .multisteps-form__panel.js-active {
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+  }
+ .teacherForm_container .multisteps-form__panel[data-animation=scaleOut] {
+    transform: scale(1.1);
+  }
+ .teacherForm_container .multisteps-form__panel[data-animation=scaleOut].js-active {
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    transform: scale(1);
+  }
+ .teacherForm_container .multisteps-form__panel[data-animation=slideHorz] {
+    left: 50px;
+  }
+ .teacherForm_container .multisteps-form__panel[data-animation=slideHorz].js-active {
+    transition-property: all;
+    transition-duration: 0.25s;
+    transition-timing-function: cubic-bezier(0.2, 1.13, 0.38, 1.43);
+    transition-delay: 0s;
+    left: 0;
+  }
+ .teacherForm_container .multisteps-form__panel[data-animation=slideVert] {
+    top: 30px;
+  }
+ .teacherForm_container .multisteps-form__panel[data-animation=slideVert].js-active {
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    top: 0;
+  }
+ .teacherForm_container .multisteps-form__panel[data-animation=fadeIn].js-active {
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+  }
+ .teacherForm_container .multisteps-form__panel[data-animation=scaleIn] {
+    transform: scale(0.9);
+  }
+ .teacherForm_container .multisteps-form__panel[data-animation=scaleIn].js-active {
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    transform: scale(1);
+  }

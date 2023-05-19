@@ -1,0 +1,342 @@
+
+.our_teacherProfile_container .main-navigation{
+	box-shadow: 0 10px 3px rgba(0,0,0,.15);
+}
+/*view_teacher*/
+.our_teacherProfile_container .padding {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.our_teacherProfile_container .inner-intro {
+    background-color: #f7f7f7;
+    height: 300px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.our_teacherProfile_container .bg-img {
+    background: url('http://theembazaar.com/demo/themeboxgo/education-hub/assets/images/bg_1.jpg') 0 36% no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.our_teacherProfile_container .our_teacherProfile_container .overlay-dark {
+    position: relative;
+    z-index: 1;
+}
+.our_teacherProfile_container .light-color {
+    color: #fff;
+}
+.our_teacherProfile_container .overlay-dark:before {
+    background-color: rgba(0, 0, 0, 0.23);
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+}
+.our_teacherProfile_container .overlay-dark:before {
+    background-color: rgba(12, 49, 78, 0.69);
+}
+
+
+.our_teacherProfile_container .our-team-main {
+    height: 200px;
+	padding: 0;
+	cursor:pointer;
+    width: 100%;
+    border-bottom: 5px #007aff solid;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: 0.5s;
+    margin-bottom: 28px;
+}
+
+
+.our_teacherProfile_container .our-team-main h3
+{
+	margin-top: 0px;
+    margin-bottom: 0px;
+	font-size:20px;
+	font-weight:700;
+}
+
+.our_teacherProfile_container .our-team-main p {
+    text-align: center;
+    margin-bottom: 0;
+}
+.our_teacherProfile_container .team-back {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 15px 0 15px;
+    text-align: left;
+    background: #fff;
+}
+.our_teacherProfile_container .team-front {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 10;
+    background: #fff;
+    padding: 0px;
+    bottom: 0px;
+    transition: all 0.5s ease;
+}
+.our_teacherProfile_container .our-team-main:hover .team-front
+{
+	bottom: unset;
+	transition: all 0.5s ease;
+}
+
+.our_teacherProfile_container .our-team-main:hover
+{
+	border-color:#777;
+	transition:0.5s;
+}
+
+/*our-team-main*/
+.our_teacherProfile_container .breadcumb_area {
+
+    width: 100%;
+    /* background-image: url("https://html.nhatgroup.com/hemnescamp/img/bg-pattern/breadcumb.jpg"); */
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.our_teacherProfile_container .breadcumb_section {
+    position: relative;
+   /*margin-top: 140px;*/
+    width: 100%;
+    height: 90px;
+}
+.our_teacherProfile_container .page_title {
+    display: inline-block;
+    left: 0;
+    /* margin-top: -45px; */
+    position: absolute;
+    top: 26%;
+    z-index: 99;
+}
+.our_teacherProfile_container .page_title > h3 {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 30px 10px 0;
+    text-transform: uppercase;
+}
+
+.our_teacherProfile_container .page_pagination {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -10px;
+}
+.our_teacherProfile_container .page_pagination ul > li > a, .our_teacherProfile_container .page_pagination ul > li {
+    text-transform: capitalize;
+    color: #fff;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+.our_teacherProfile_container .page_pagination ul > li > a, .our_teacherProfile_container .page_pagination ul > li {
+    text-transform: capitalize;
+    color: #fff;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+.our_teacherProfile_container .breadcumb_area:after {
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    background-color: rgba(26, 43, 81, 0.85);
+}
+.our_teacherProfile_container .cnt-block {
+    margin-top: -17px;
+    width: 148px;
+    height: 148px;
+    border-radius: 100%;
+    display: inline-block;
+    margin-bottom: 0;
+}
+.our_teacherProfile_container .img_fluids {
+    width: 148px;
+    height: 148px;
+    border-radius: 100%;
+}
+.our_teacherProfile_container .tutor-rate {
+    margin-top: 8px;
+}
+.our_teacherProfile_container  .tutor-rate span {
+    margin-right: 10px;
+    color: #6E6E6E;
+}
+.our_teacherProfile_container .tutor-rate span label {
+    color: #332e2b;
+    font-weight: 600;
+}
+.our_teacherProfile_container .card-title-teacher{
+	color: #007aff;
+    text-align: center;
+    font-size: 18px;
+    text-transform: capitalize!important;
+	margin-top: 6px;
+    margin-bottom: 5px;
+}
+.our_teacherProfile_container .card_teacher_p{
+	font-size: 14px;
+}
+.our_teacherProfile_container .aboutTeacherFrom1 {
+    margin-top: 5px;
+    text-align: center;
+}
+.our_teacherProfile_container .ng-binding_teacher{
+	font-size: 14px;
+	color: #007aff;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.our_teacherProfile_container .color_be{
+   font-weight: 600;
+    text-align: center;
+    color: #007aff;
+    font-size: 15px;
+}
+.our_teacherProfile_container .our-team-main-profile {
+	height: 245px;
+}
+  .card-teacher-image img {
+	 max-width: 205px;
+	 max-height: 245px;
+ }
+ .our_teacherProfile_container .team-front-flex {
+     display: flex;
+		 justify-content: space-around;
+    align-items: center;
+		height: 245px;
+ }
+ .our_teacherProfile_container .flex-property {
+	 display: flex;
+    justify-content: space-around;
+   align-items: center;
+ }
+ .our_teacherProfile_container .teacher_model .modal-dialog {
+	 margin: 23px 30px 9px 30px;
+	 width: auto;
+	 max-width: unset;
+	 display: flex;
+	 justify-content: center;
+ }
+ .our_teacherProfile_container .teacher_model .modal-body {
+		text-transform: capitalize;
+	}
+    .our_teacherProfile_container #teacher_model_open {
+	 transition: opacity .15s cubic-bezier(0.9, 0.3, 1, 1);
+	 transition-delay: 0.3s;
+ }
+ .teacher-name-model #th-full_name-model {
+	 text-transform: uppercase;
+	 color: #67569b;
+	 display: inline-block;
+ }
+ .our_teacherProfile_container #subject_expert-th {
+	color: #fe5e00;
+    font-size: 12px;
+    font-weight: 500;
+	}
+	.our_teacherProfile_container .th-cd-mod i {
+		color: #fe5e00;
+	}
+
+		body:not(.modal-open){
+      padding-right: 0px !important;
+    }
+    .our_teacherProfile_container .our-team-main12:hover .team-front
+    {
+    	bottom:-100px;
+    	transition: all 0.5s ease;
+    }
+    .our_teacherProfile_container .container-fluid-pull-right {
+      width: 100%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-evenly;
+    }
+    .our_teacherProfile_container .card-teacher-image img{
+		border-radius: 50%;
+		width: 133px;
+    height: 139px;
+	}
+    .our_teacherProfile_container .section.section-padding.choose-course {
+        background-image: url('https://www.theonlinegurukul.com//assets/web/images/new-images/classes-bg.jpg');
+        background-repeat: repeat;
+        background-position: center;
+        width: 100%;
+        padding: 30px 0;
+    }
+    .our_teacherProfile_container .group-title-index {
+        text-align: center;
+        margin-bottom: 20px;
+        position: relative;
+        z-index: 2;
+        color: #000;
+    }
+    .our_teacherProfile_container .group-title-index .center-title {
+        color: #202121;
+        font-size: 30px;
+        font-weight: 800;
+        margin: 0 0 15px 0;
+        text-transform: uppercase;
+        line-height: 30px;
+    }
+    .our_teacherProfile_container b {
+        font-weight: bold;
+    }
+    .our_teacherProfile_container  .group-title-index .bottom-title .bottom-icon {
+        margin: 0 auto;
+        font-size: 26px;
+        color: #f60;
+    }
+    .our_teacherProfile_container .group-title-index .bottom-title:before {
+        right: -32px;
+    }
+    .our_teacherProfile_container .group-title-index .bottom-title:after {
+        left: -32px;
+    }
+    .our_teacherProfile_container .group-title-index .bottom-title:after, .group-title-index .bottom-title:before {
+        position: absolute;
+        content: '';
+        width: 22px;
+        height: 2px;
+        background-color: #f60;
+        top: 50%;
+        margin-top: -5px;
+    }
+    .our_teacherProfile_container .group-title-index .bottom-title {
+        position: relative;
+        display: inline-block;
+    }
+    .our_teacherProfile_container  .close-signmodelBoxsimple {
+        position: absolute;
+        top: -4%;
+        z-index: 9999999;
+        right: -5px;
+        opacity: 1!important;
+     }
+    /* .our_teacherProfile_container  */
+    /* .our_teacherProfile_container  */
+    /* .our_teacherProfile_container  */
+

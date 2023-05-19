@@ -1,0 +1,196 @@
+.blogger_blogList_container a {
+    text-decoration: none;
+    color:unset!important;
+}
+.Blogheader {
+    text-align: center;
+    margin-top: 11px;
+}
+.blog_images_banner_top {
+  /* background-image: url(../../../public/assets/uploads/blogger_banner/77815915316518267296437583401651826513199778395165175169011875268391651750934freelance-young-asian-businesswoman-casual-wear-using-laptop-working-living-room-home.jpg); */
+}
+@media (min-width:768px) {
+  .blogger_blogList_container .blogbox-cd {
+    height: 360px;
+  }
+}
+.blogger_blogList_container .main-celebration-bl{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.blogger_blogList_container  .main-celebration-bl {
+    border-radius: 8px;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.08);
+    border: solid 1px #e5e5e5;
+    background-color: #ffffff;
+    margin-bottom: 16px;
+}
+.blogger_blogList_container .main-celebration-bl .image-field {
+    cursor: pointer;
+}
+.blogger_blogList_container .main-celebration-bl .image-field .main-image {
+    border-radius: 8px;
+    border-bottom-left-radius: unset;
+    border-bottom-right-radius: unset;
+}
+.blogger_blogList_container .main-celebration-bl .blogtitle {
+    /* font-family: "Open Sans"; */
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.53;
+    padding: 10px 12px 0px 12px;
+    color: #000;
+    text-overflow: ellipsis;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    overflow: hidden;
+}
+.blogger_blogList_container .main-celebration-bl .description-field {
+    font-family: "Open Sans";
+    font-size: 14px;
+    line-height: 1.43;
+    color: #666666;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 11px;
+    padding-right: 11px;
+}
+.blogger_blogList_container .viewall-latestblog .btn {
+          background-image: linear-gradient(to right,#e9f4fd,#bbe8ff);
+          font-size: 19px;
+          border-radius: 5px;
+      }
+      @media(min-width: 400px) and (max-width: 767px){
+        .blogger_blogList_container .Blogheader img {
+          width: 160px;
+      }
+      }
+      @media (max-width: 400px){
+        .blogger_blogList_container .Blogheader img {
+          width: 117px;
+          margin-left: 12px;
+      }
+      }
+      @media (max-width: 764px){
+        .blogger_blogList_container .main-celebration-bl .image-field {
+           width: unset;
+      }
+      .main-celebration-bl {
+          max-width: unset;
+           height: unset;
+           margin-bottom: 10px;
+      }
+
+      }
+      .blogger_blogList_container .Date-field {
+        text-align:end;
+        padding-right: 5px;
+      }
+      .blogger_blogList_container  .blogtitle {
+          text-transform: capitalize;
+      }
+
+
+
+
+
+
+
+
+
+
+      /* blog Details css start */
+      
+ .blog_details_container .theOnlineGurukul_blog2 ul li {
+      list-style: inside;
+    }
+ .blog_details_container .breadcrumb>li+li:before{
+      content: "";
+    }
+    /* footer social media share btn */
+
+ /* .blog_details_container .share, .webshare {
+      display: none;
+    } */
+
+   .blog_details_container .share {
+      display: flex;
+      flex-wrap: wrap;
+      user-select: none;
+    }
+
+ .blog_details_container .webshareapi .webshare {
+      display: block;
+    }
+
+ .blog_details_container .share,  .blog_details_container .share li {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+   .blog_details_container  .share a {
+      display: block;
+      text-decoration: none;
+      padding: 0.3em 1em 0.3em 0.3em;
+      margin: 0.2em;
+      color: #fff;
+      background-color: #557;
+      border-radius: 1.5em;
+      outline: 0 none;
+    }
+
+   .blog_details_container  .share svg {
+      width: 30px;
+      height: 25px;
+      padding: 0;
+      margin: 0 0.2em 0 0;
+      vertical-align: middle;
+      background-color: #fff;
+      border: 0.4em solid #fff;
+      border-radius: 50%;
+      overflow: visible;
+      transition: transform 0.2s cubic-bezier(0.2,-1.3, 0.5, 5);
+    }
+
+   .blog_details_container  .share a:hover, .blog_details_container  .share a:focus {
+      background-color: #779;
+    }
+
+   .blog_details_container  .share a:hover svg, .blog_details_container  .share a:focus svg {
+      transform: scale(1.15);
+    }
+   .blog_details_container  .blogtitle h2{
+        text-transform: capitalize;
+        font-family: Open Sans!important;
+        font-weight: 600;
+        animation-name: blogtitle_heading;
+        animation-duration: 1s;
+    }
+    @keyframes blogtitle_heading {
+      0% {
+        transform: translateY(200px);
+      }
+      100% {
+        transform: translateY(0px);
+      }
+    }
+    .blog_details_container .image-field .main-image {
+        float: right;
+        border-radius: 30px;
+        padding: 15px;
+    }
+    
+    .blog_details_container .blog_images_banner_top{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 500px;
+    }
+    .blog_details_container .blogtitle {
+        padding-top: 11%;
+        width: 70%;
+    }
